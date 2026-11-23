@@ -4,40 +4,46 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shop Operations Panel</title>
-  <meta name="description" content="A private tool the shop owner uses to run their own online shop.">
+  <meta name="description" content="Shop Operations Panel helps an online shop owner manage product files, customer messages, orders and finances in one place.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
     <h1>Shop Operations Panel</h1>
-    <p class="lead">A private, self-hosted tool that the shop owner uses to run their own online digital-download shops.</p>
-
-    <h2>What it does</h2>
-    <ul>
-      <li>Lists the owner's product files in their own Google Drive and checks that delivery links work for customers.</li>
-      <li>Reads the shop's notification e-mails in the owner's own Gmail (read-only) so customer messages can be answered on time.</li>
-      <li>Keeps orders, customer support notes and monthly finances in one place.</li>
-    </ul>
-
-    <h2>How it uses Google APIs</h2>
-    <ul>
-      <li><strong>Google Drive (read-only):</strong> reads the names, sizes and sharing settings of the owner's product files. It never changes, moves or deletes files.</li>
-      <li><strong>Gmail (read-only):</strong> reads e-mails sent by the shop platform (order and customer-message notices). It never sends, changes or deletes e-mail.</li>
-      <li>The app does <strong>not</strong> create, edit or generate images, video or any other media.</li>
-      <li>Google data is <strong>never</strong> used to create AI-generated imagery of any kind, including non-consensual intimate imagery, and is not used to train AI or machine-learning models.</li>
-      <li>The app complies with the <a href="https://developers.google.com/terms">Google APIs Terms of Service</a> and the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
-    </ul>
-
-    <h2>Who can use it</h2>
-    <p>
-      Only the shop owner and the people they personally add. The panel runs on the owner's own computer; it is not a public
-      service, there is no sign-up, and it is not offered to anyone else.
+    <p class="lead">
+      <strong>Shop Operations Panel</strong> is a web application that helps an online shop owner run their digital-download
+      shops on Etsy. It brings product files, customer messages, orders and monthly finances together in one place, so the
+      owner can deliver the right files to buyers and answer customers on time.
     </p>
 
-    <h2>Google data</h2>
+    <h2>What Shop Operations Panel does</h2>
+    <ul>
+      <li><strong>Product files:</strong> lists the product files the owner keeps in their own Google Drive and checks that
+        each file is complete and that its delivery link opens for buyers.</li>
+      <li><strong>Customer messages:</strong> reads the shop's notification e-mails in the owner's Gmail, so new customer
+        messages and help requests are collected in one list and none is missed.</li>
+      <li><strong>Orders and finances:</strong> keeps order records, support notes and monthly income and costs together.</li>
+    </ul>
+
+    <h2>How Shop Operations Panel uses Google APIs</h2>
+    <ul>
+      <li><strong>Google Drive:</strong> reads the names, sizes and links of the owner's product files, checks that files open,
+        and, only when the owner asks, sets a delivery folder to "anyone with the link can view". It never deletes or moves files.</li>
+      <li><strong>Gmail (read-only):</strong> reads the e-mails the shop platform sends (customer-message and order notices).
+        It never sends, changes or deletes e-mail.</li>
+      <li>Shop Operations Panel does <strong>not</strong> create, edit or generate images, video or any other media.</li>
+      <li>Google user data is <strong>never</strong> used to create AI-generated imagery of any kind, including non-consensual
+        intimate imagery (NCII), and is not used to train AI or machine-learning models.</li>
+      <li>Shop Operations Panel complies with the <a href="https://developers.google.com/terms">Google APIs Terms of Service</a>
+        and the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+        Policy</a>, including the Limited Use requirements.</li>
+    </ul>
+
+    <h2>Who uses it</h2>
     <p>
-      The panel connects only to Google accounts that belong to the shop owner. Read how Google data is used and protected in the
-      <a href="privacy.html">privacy policy</a>.
+      Shop Operations Panel is used by the shop owner and the team members they add, to manage their own shops and their own
+      Google accounts. This page and the <a href="privacy.html">privacy policy</a> are public and can be read by anyone
+      without signing in.
     </p>
 
     <footer>
